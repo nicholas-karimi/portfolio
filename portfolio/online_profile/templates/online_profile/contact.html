@@ -1,0 +1,24 @@
+<!-- {% extends 'online_profile/base.html'%}
+{% load crispy_forms_tags%}
+{%block content%}
+    <div class="col-md-8">
+        {% if messages %}
+            {% for message in messages %}
+                <div class="alert alert-{{ message.tags }}">
+                    {{ message }}
+                </div>
+            {% endfor %}
+        {% endif %}
+    </div>
+    
+    <div class="content-section">
+     <form action="" method="POST">
+        {% csrf_token %}
+            {{ form|crispy}}
+        <div class="form-group">
+            <button class="btn btn-outline-info" type="submit">Submit</button>
+        </div>
+     </form>
+    </div>
+{%endblock content%}
+ -->
